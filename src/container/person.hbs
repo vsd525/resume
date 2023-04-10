@@ -61,10 +61,11 @@
                 {{#with team_leader}}
                 <li>{{name}}</li>
                 <li>{{title}}</li>
-                <li>{{email}}</li>
-                {{/with}}
-                <p>Team_members : </p>
-                {{#each team_members}}
+                <li>{{email}}
+                <li>
+                    {{/with}}
+                    <p>Team members : </p>
+                    {{#each team_members}}
                 <li>{{name}}</li>
                 <li>{{title}}</li>
                 <li>{{email}}</li>
